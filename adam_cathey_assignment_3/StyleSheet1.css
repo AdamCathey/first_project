@@ -1,0 +1,32 @@
+﻿body {
+    background-color: RGB(185,0,0);
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px dotted gray;
+    padding: 10px;
+    font-family: sans-serif;
+    background-image: url("");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+}
+main h4 {
+    float: left;
+    display: flex;
+    align-items: center;
+    color: lightgray;
+}
+article {
+    clear: both;
+    background-color: rgba(23, 0, 0, 0.3);
+}
+div {
+    display: flex;
+    align-items: center;
+    
+}
+header {
+    background-color: rgba(23, 0, 0, 0.3);
+}
+[href="#top"] {float:right;
+}

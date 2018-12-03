@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form method="GET" action="http://jac.stephmoreau.ca/submitForm">
+            <label for="fname">First Name</label>
+            <br />
+            <input type="text" name="first_name"  id="fname"/>
+            <br />
+            <label for="M">Male</label>
+            <input type="radio" name="gender" value="Male" id="M"/>
+            <label for="F">Female</label>
+            <input type="radio" name="gender" value="Female" id="F"/><!--could put "checked" ATT for default-->
+            <label for="O">Other</label>
+            <input type="radio" name="gender" value="Other" id="O"/>
+            <br/>
+            <label for="E">Email Address</label> <br />
+            <input id="E" type="email" name="email" placeholder="enter email please"/>
+            <input type="submit" name="btn_submit"/>
+            <input type="reset" name="btn_reset" value="Send the Info"/><br/>
+            <label for="D">Birthday</label><br/>
+            <input type="date" id="D" name="birthday"/>
+            <label for="C">Fav Color</label>
+            <input type="color" name="color" id="C"/> <br/>
+            <label for="N">Fav Number</label>
+            <input type="number" name="number" id="N" min="0" max="10"/><br/>
+            <label for="W">Website</label>
+            <input type="url" name="url" id="W"/><br/>
+
+            <select name="favfruit">
+                <optgroup label="Fruit">
+                    <option value="">&NonBreakingSpace;</option>
+                    <option value="A">Apples</option>
+                    <option value="B">Bananas</option>
+                </optgroup>
+                <option value="c">Cars</option>
+            </select>
+        </form>
+    </body>
+</html>

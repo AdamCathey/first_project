@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Registration Form</h1>
+        </header>
+        <form method="GET" action="http://jac.stephmoreau.ca/submitForm">
+            <label for="user_name">User name:</label>
+            <input required type="text" name="user_name"  id="user_name"/>
+            <br />
+            <label for="password">Password:</label>
+            <input required type="password" name="password"  id="password"/>
+            <br />
+                <label for="where">Where did you hear about us?</label>
+                 <select id="where" name="Where">
+                    <option value="">--Please choose--</option>
+                    <option value="A">Friends</option>
+                    <option value="B">Family</option>
+                </select>
+                <br/>Gender:
+            <input required type="radio" name="gender" value="Male" id="M"/>
+            <label for="M">Male</label>
+            <input type="radio" name="gender" value="Female" id="F"/><!--could put "checked" ATT for default-->
+            <label for="F">Female</label>
+            <br/>
+            <label for="comments">Comments:</label><br/>
+            <textarea id="comments">
+
+
+
+
+
+           </textarea>
+           <br/>
+           <label for="check">Click to accept our terms</label>
+           <input type="checkbox" name="terms" id="check"/><br/>
+           <input type="submit" name="btn_submit" value="register"/>
+            <input type="reset" name="btn_reset" value="Reset"/><br/>
+        </form>
+    </body>
+</html>

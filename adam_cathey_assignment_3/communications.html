@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Adam Cathey</title>
+        <meta charset=UTF-8>
+        <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
+    <body>
+        <header>
+            <section id="top">
+                <h1>Adam Cathey
+                </h1>
+                <h4>&#40;and the people he’s been&#41;
+                </h4>
+                <nav>
+                    <a href="index.html">Paths</a>
+                    <a href="spheres.html">Sheres</a>
+                    <a href="communications.html">Communications</a>
+                </nav>
+                <hr/>
+            </section>
+        </header>
+        <main>
+            <section>
+                <h2>Communications</h2>
+                    <form method="GET"     action="http://jac.stephmoreau.ca/submitForm">
+                        <label for="name">Name:</label>
+                        <input required type="text" maxlength="30" name="name"  id="name"/>
+                        <br />
+                        <label for="email">Email:</label>
+                        <input required type="email" name="email"  id="email"/>
+                        <br />
+                            <label for="where">Where did you hear about this site?</label>
+                            <select id="where" name="Where">
+                                <option value="">--Please choose--</option>
+                                <option value="A">Friends</option>
+                                <option value="B">Family</option>
+                                <option value="C" selected>Internet</option>
+                            </select>
+                            <br/>
+                        <br/>
+                        <label for="comments">Comments:</label><br/>
+                        <textarea id="comments" maxlength="75"></textarea>
+                        <br/>
+                        <input type="submit" name="btn_submit" value="Submit"/>
+                        <input type="reset" name="btn_reset" value="Reset"/><br/>
+                        <input type="hidden" name="spamtime" value="Adam">
+                    </form>
+                <img src="images/masks.jpeg" height="328" width="510" alt="masks_image" />
+            </section>
+        </main>
+        <footer>
+            <small> This website was made by Adam Cathey &copy; 2018 </small> 
+        </footer>
+    </body>
+</html>            
+
